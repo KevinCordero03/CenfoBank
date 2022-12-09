@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "RegistrarUsuario";
+}
+
+<!-- Drop and Drag el JS  -->
+<script src="~/Scripts/Views/RegisterUser.js"></script>
+
+
+<h2>Registrar Usuario</h2>
+
+<div>
+    <form>
+        <div class="form-group">
+            <label class="col-form-lable mt-4" for="txt_id">Personal ID</label>
+            <input type="text" class="form-control" placehold="Default input" id="txt_id">
+        </div>
+
+
+        <div class="form-group">
+            <label class="col-form-lable mt-4" for="text_name">Name</label>
+            <input type="text" class="form-control" placehold="Default input" id="text_name">
+        </div>
+
+
+        <div class="form-group">
+            <label class="col-form-lable mt-4" for="text_lastname">Last Name</label>
+            <input type="text" class="form-control" placehold="Default input" id="text_lastname">
+        </div>
+
+        <div class="form-group">
+            <label class="col-form-lable mt-4" for="text_phone">Phone Number</label>
+            <input type="text" class="form-control" placehold="Default input" id="text_phone">
+        </div>
+
+        <div class="form-group">
+            <label class="col-form-lable mt-4" for="text_email">E-mail</label>
+            <input type="text" class="form-control" placehold="Default input" id="text_email">
+        </div>
+
+        <a class="nav-link active" href="#"></a>
+
+        <!-- Metodo Create se invoca desde un JavaScript -->
+
+        <button type="submit" class="btn btn-success" id="btnCreate"> Create Customer</button>
+        <button type="submit" class="btn btn-danger">Delete</button>
+
+
+    </form>
+</div>
